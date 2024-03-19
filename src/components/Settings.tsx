@@ -58,7 +58,7 @@ export default function Settings({ URL }: { URL: { code: string, characters: any
     };
 
     const copy = () => {
-        navigator.clipboard.writeText('https://shfst.me/' + codeRef.current);
+        navigator.clipboard.writeText(process.env.NEXT_PUBLIC_SHORT_DOMAIN + codeRef.current);
         toast.success('Copied to clipboard');
     };
 
@@ -108,7 +108,7 @@ export default function Settings({ URL }: { URL: { code: string, characters: any
                         <>
                             <h2 className="text-lg font-semibold text-slate-500">Your files will be stored here</h2><div className="flex gap-3 items-center">
                                 <a id="url" data-code={code} className="text-xl text-blue-500 underline" href={"/" + code} target="_blank">
-                                    shfst.me/{code}
+                                    {process.env.NEXT_PUBLIC_SHORT_DOMAIN}/{code}
                                 </a>
                                 <button className="text-blue-500 hover:text-blue-600 transition-colors" onClick={() => updateCode(charactersCount)}>
                                     <FontAwesomeIcon icon={faRetweet} className='h-[20px] flex self-end' />
