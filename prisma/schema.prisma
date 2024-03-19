@@ -8,7 +8,6 @@ datasource db {
   relationMode = "prisma"
 }
 
-// sharefast.me/CODE
 model Code {
   id         String    @id @unique
   characters Int?      @default(2)
@@ -20,7 +19,6 @@ model Code {
   created_at DateTime  @default(now())
 }
 
-// sharefast.me/OBJECT_CODE/FILE_NAME
 model File {
   id         String   @id @unique @default(uuid())
   name       String
