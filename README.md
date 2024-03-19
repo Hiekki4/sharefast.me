@@ -59,6 +59,6 @@ Contributions are what make the open source community such an amazing place to l
 
 ![Activity](https://repobeats.axiom.co/api/embed/446ff580911c57b49e2049c8722604ca2ecf07dd.svg "Repobeats analytics image")
 
-# License
+## License
 
 Distributed under the GNU Affero General Public License Version 3 (AGPLv3). See `LICENSE` for more information.
