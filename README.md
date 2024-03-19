@@ -2,13 +2,11 @@
   <a href="https://github.com/hiekki4/sharefast">
    <img src="/public/background.png" alt="Logo">
   </a>
-
-  <h3 align="center">sharefast.me</h3>
-
-  <p align="center">
-    Temporary, Quick Transfers With Memorable URLs.
-  </p>
 </p>
+
+## Introduction
+
+sharefast.me is a simple file sharing service that allows you to upload files and share them with others. The files are stored for a limited time and are deleted after a certain period of time. The service is designed to be fast and easy to use, with a focus on simplicity and speed.
 
 ## Tech Stack
 
