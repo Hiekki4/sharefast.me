@@ -4,6 +4,20 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://go.shfst.me/x">
+    <img alt="X Follow" src="https://img.shields.io/twitter/follow/sharefilesfast">
+  </a>
+  
+  <a href="https://go.shfst.me/community">
+    <img alt="Discord" src="https://img.shields.io/discord/756656735464325210">
+  </a>
+  
+  <a href="https://go.shfst.me/license">
+    <img src="https://img.shields.io/github/license/hiekki4/sharefast.me?label=license&logo=github&color=f80&logoColor=fff" alt="License" />
+  </a>
+</p>
+
 ## Introduction
 
 ShareFast is a simple file sharing service that allows you to upload files and share them with others. The files are stored for a limited time and are deleted after a certain period of time. The service is designed to be fast and easy to use, with a focus on simplicity and speed.
@@ -17,7 +31,6 @@ ShareFast is a simple file sharing service that allows you to upload files and s
 - [Vercel](https://vercel.com/) – deployments
 - [Storj](https://storj.io/) – file storage
 - [Neon](https://neon.tech/) – database
-
 
 ## Development
 
@@ -41,7 +54,7 @@ npx prisma generate
 
 4. Create database tables
 
-```bash 
+```bash
 npx prisma db push
 ```
 
