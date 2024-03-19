@@ -1,0 +1,36 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider     = "postgresql"
+  url          = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+// sharefast.me/CODE
+model Code {
+  id         String    @id @unique
+  characters Int?      @default(2)
+  password   String?
+  admin_key  String?
+  files      File[]
+  expires_at DateTime
+  updated_at DateTime  @updatedAt
+  created_at DateTime  @default(now())
+}
+
+// sharefast.me/OBJECT_CODE/FILE_NAME
+model File {
+  id         String   @id @unique @default(uuid())
+  name       String
+  size       Int
+  type       String
+  updated_at DateTime @updatedAt
+  created_at DateTime @default(now())
+
+  code     String
+  codeFile Code?  @relation(fields: [code], references: [id])
+
+  @@index([code])
+}
