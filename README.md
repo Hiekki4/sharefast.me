@@ -10,7 +10,7 @@
   </a>
   
   <a href="https://go.shfst.me/community">
-    <img alt="Discord" src="https://img.shields.io/discord/756656735464325210">
+    <img alt="Discord" src="https://img.shields.io/discord/756656735464325210?style=flat&logo=discord&label=Community">
   </a>
 
   <a href="https://go.shfst.me/license">
