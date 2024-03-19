@@ -6,13 +6,13 @@
 
 <p align="center">
   <a href="https://go.shfst.me/x">
-    <img alt="X Follow" src="https://img.shields.io/twitter/follow/sharefilesfast">
+    <img alt="X" src="https://img.shields.io/twitter/follow/sharefilesfast?style=flat&label=%40sharefilesfast&logo=twitter&color=0bf&logoColor=fff">
   </a>
   
   <a href="https://go.shfst.me/community">
     <img alt="Discord" src="https://img.shields.io/discord/756656735464325210">
   </a>
-  
+
   <a href="https://go.shfst.me/license">
     <img src="https://img.shields.io/github/license/hiekki4/sharefast.me?label=license&logo=github&color=f80&logoColor=fff" alt="License" />
   </a>
