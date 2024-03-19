@@ -11,12 +11,6 @@ export default function Footer() {
                     <Image src="/icon.png" alt="ShareFast" width={50} height={50} className="inline-block" />
                     <span> &copy; {new Date().getFullYear()} sharefast.me. All rights reserved.</span>
                 </div>
-                <div className='text-sm'>
-                    <span>
-                        Made with <FontAwesomeIcon icon={faHeart} className="text-red-500 h-[14px] w-[14px]" /> by
-                        <span className="font-bold"> EveCloud Technologies</span>
-                    </span>
-                </div>
             </div>
         </footer>
     );
